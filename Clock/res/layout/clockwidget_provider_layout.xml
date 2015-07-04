@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+		android:id="@+id/time"
+		android:text="@string/timeText"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#ffff00ff"
+		android:textColor="#ff000000"/>
+    
+    <TextView 
+		android:id="@+id/date"
+		android:text="@string/dateText"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#ffff00ff"
+		android:textColor="#ff000000"/>
+
+</LinearLayout>
